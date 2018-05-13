@@ -22,4 +22,4 @@ var burger = {
 
 };
 
-module.exports = burgerl
+module.exports = burger;
