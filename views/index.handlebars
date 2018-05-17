@@ -5,7 +5,7 @@
       <div id="ready_to_eat">
 
         {{#each burgers}}
-          {{#unless devoured}}
+          {{#unless this.devoured}}
           <form action="burger/eat/{{id}}" method="POST">
             <div class="input-group">
               <li class="form-control">{{id}}. {{burger_name}}</li>
